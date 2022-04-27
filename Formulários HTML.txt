@@ -1,0 +1,35 @@
+Veja como criar formulários em HTML e conheça as tags novas para formulários no HTML5, como os tipos NUMBER, DATE e EMAIL. Essa será a primeira parte de três tutoriais sobre formulários HTML5.
+
+A tag FORM serve para criar um formulário, onde o usuário vai poder interagir com seu site e fornecer dados.
+
+A tag FIELDSET em HTML cria conjuntos de campos agrupados dentro de uma linha container que vai identificar cada uma das sessões.
+
+A tag LEGEND cria uma legenda para cada FIELDSET, um texto que fica sobre as linhas.
+
+A tag INPUT serve para criar a grande maioria dos campos de formulários em HTML5. Nessa aula, veremos alguns valores para o parâmetro TYPE:
+
+A tag INPUT com o parâmetro TYPE = “text” cria uma caixa de texto.
+
+O parâmetro SIZE indica a quantidade de caracteres exibidos simultaneamente em uma caixa de texto.
+
+O parâmetro MAXLENGTH indica a quantidade de caracteres aceitos em uma caixa de texto.
+
+Entenda a diferença entre SIZE e MAXLENGTH.
+
+O parâmetro PLACEHOLDER configura um conteúdo informativo dentro de um objeto de formulário. Ao clicar sobre o objeto, o PLACEHOLDER desaparecerá.
+
+Para criar uma caixa de senha em um formulário HTML, utilizaremos a tag INPUT com TYPE = “password”
+
+Caixas de senha também suportam SIZE, MAXLENGTH e PLACEHOLDER.
+
+Para solicitar um e-mail. utilizaremos INPUT com TYPE = “email”, que é exclusivo da HTML5.
+
+Para criar opções a serem selecionadas na forma de botões de rádio, utilizaremos INPUT com parâmetro TYPE = “radio”. Para deixar uma opção previamente marcada, utilizamos o parâmetro CHECKED.
+
+OBS: Para objetos do tipo RADIO que fazem parte de um mesmo grupo, todos devem ter o mesmo NAME. Isso é muito importante.
+
+Para criar palavras relacionadas a objetos de formulário, utilizamos a tag LABEL com um ID. Para criar a relação entre objetos e LABEL, utilizamos o parâmetro FOR do objeto.
+
+A tag INPUT com parâmetro TYPE = “date”, cria uma caixa de seleção de data, com um calendário (depende do navegador utilizado).
+
+Para permitir a entrada de valores numéricos, utilizamos INPUT com parâmetro TYPE=”number”. Nesse caso, os parâmetros MIN e MAX definem os valores mínimo e máximo para caixas desse tipo.

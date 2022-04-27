@@ -1,0 +1,11 @@
+A aula de formulários em HTML5 tem continuidade com alguns objetos e propriedades novos.
+
+Para a tag FORM, o parâmetro METHOD aceita os valores GET e POST:
+
+– O método GET envia dados via URL (endereço do site). É um método mais rápido e menos seguro.                                                                                                                                                            – O método POST envia dados por pacotes. É um método um pouco mais lento, mas possui uma segurança maior.
+
+O parâmetro ACTION indica o local para onde os dados serão enviados. Quem utiliza MAILTO, deve ter um cliente de e-mail previamente configurado.
+
+A tag SELECT cria caixas combinadas, utilizando a tag OPTION para criar as opções.
+
+O parâmetro SELECTED serve para tornar um OPTION padrão. Os valores podem ser definidos com o parâmetro VALUE.
